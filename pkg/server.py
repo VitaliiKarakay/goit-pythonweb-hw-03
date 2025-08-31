@@ -7,7 +7,7 @@ from jinja2 import Environment, FileSystemLoader
 from datetime import datetime
 from urllib.parse import parse_qs
 
-PORT = 3001
+PORT = 3000
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STORAGE_PATH = os.path.join(BASE_DIR, 'storage', 'data.json')
 
